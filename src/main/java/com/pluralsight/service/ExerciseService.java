@@ -1,11 +1,12 @@
 package com.pluralsight.service;
 
-import java.util.List;
-
 import com.pluralsight.model.Activity;
 
-public interface ExerciseService {
+import java.util.List;
 
-	List<Activity> findAllActivities();
+public interface ExerciseService
+{
+
+    List<Activity> findAllActivities();
 
 }
